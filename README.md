@@ -13,8 +13,8 @@ Kubernetes, Openldap, phpLDAPadmin - multi verifaction
 ![kubernetes install](https://user-images.githubusercontent.com/109173989/180791303-8458902a-3e44-4381-b582-b30705566b20.PNG)
 2. download helm https://helm.sh/docs/intro/install/
 3. Install the following helm chart: https://github.com/jp-gouin/helm-openldap
-  1. run command: helm repo add helm-openldap https://jp-gouin.github.io/helm-openldap/
-  2. run command: helm install my-release helm-openldap/openldap-stack-ha
+   1. run command: helm repo add helm-openldap https://jp-gouin.github.io/helm-openldap/
+   2. run command: helm install my-release helm-openldap/openldap-stack-ha
 4. run command: kubectl port-forward service/my-release-phpldapadmin 8080:80
 6. go to localhost:8080 and login with User: cn=admin,dc=example,dc=org Password: Not@SecurePassw0rd
 7. click dc=example on the left, on the new menu press create a child entry, choose Generic: Posix Grou, fill info and then Create
