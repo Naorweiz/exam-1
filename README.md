@@ -9,7 +9,7 @@ example: cd C:\Users\PC\Desktop\jenkins
 source/info: https://www.digitalocean.com/community/tutorials/how-to-automate-jenkins-setup-with-docker-and-jenkins-configuration-as-code
 
 Kubernetes, Openldap, phpLDAPadmin - multi verifaction
-1. install kubernetes, go to docker desktop, settings, kubernetes tab, check Enable kubernetes and update
+1. install kubernetes, go to docker desktop, settings, kubernetes tab, check Enable kubernetes and Apply
 ![kubernetes install](https://user-images.githubusercontent.com/109173989/180791303-8458902a-3e44-4381-b582-b30705566b20.PNG)
 2. download helm https://helm.sh/docs/intro/install/
 3. Install the following helm chart: https://github.com/jp-gouin/helm-openldap
