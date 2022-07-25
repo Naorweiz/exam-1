@@ -17,9 +17,11 @@ Kubernetes, Openldap, phpLDAPadmin - multi verifaction
    2. run command: helm install my-release helm-openldap/openldap-stack-ha
 4. run command: kubectl port-forward service/my-release-phpldapadmin 8080:80
 6. go to localhost:8080 and login with User: cn=admin,dc=example,dc=org Password: Not@SecurePassw0rd
-7. click dc=example on the left, on the new menu press create a child entry, choose Generic: Posix Grou, fill info and then Create
+7. click dc=example on the left, on the new menu press create a child entry, choose Generic: Posix Group, fill info and then Create
 8. click dc=example on the left, on the new menu press create a child entry, choose the account type necessary and fill the needed information.
 
 source/info: https://github.com/jp-gouin/helm-openldap
+
 https://tylersguides.com/guides/openldap-how-to-add-a-user/
+
 https://wikidsystems.com/support/how-to/how-to-add-two-factor-authentication-to-openldap-and-freeradius/
