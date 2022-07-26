@@ -1,6 +1,6 @@
 Jenkins Docker Compose
 1. run docker desktop
-2. download project and unzip to foleder
+2. download project and unzip to folder
 3. run in command prompt: cd 'FOLDER_LOCATION'
 example: cd C:\Users\PC\Desktop\jenkins
 4. run command: docker compose build
@@ -18,7 +18,7 @@ Kubernetes, Openldap, phpLDAPadmin - multi verifaction
 4. run command: kubectl port-forward service/my-release-phpldapadmin 8080:80
 6. go to localhost:8080 and login with User: cn=admin,dc=example,dc=org Password: Not@SecurePassw0rd
 7. click dc=example on the left, on the new menu press create a child entry, choose Generic: Posix Group, fill info and then Create
-8. click dc=example on the left, on the new menu press create a child entry, choose the account type necessary and fill the needed information.
+8. click dc=example on the left, on the new menu press create a child entry, choose the account type necessary and fill the needed information
 
 source/info: https://github.com/jp-gouin/helm-openldap
 
